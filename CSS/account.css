@@ -22,6 +22,10 @@ section .container>div {
     position: relative;
 }
 
+section .container>div:last-of-type {
+    padding: 120px 0 50px;
+}
+
 section .container>div::after {
     content: "";
     position: absolute;
@@ -89,7 +93,7 @@ section .container>div form div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 110px;
+    margin-bottom: 90px;
 }
 
 section .container input[type="submit"] {
