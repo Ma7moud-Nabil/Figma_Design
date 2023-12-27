@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="../CSS/all.min.css">
     <!-- To Reset All Elements -->
     <link rel="stylesheet" href="../CSS/normalize.css">
-    <!-- CSS service File -->
-    <link rel="stylesheet" href="../CSS/account.css">
     <!-- Global Styles -->
     <link rel="stylesheet" href="../CSS/global.css">
+    <!-- CSS account File -->
+    <link rel="stylesheet" href="../CSS/account.css">
     <!-- Poppins Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +40,53 @@
         </div>
     </nav>
     <!-- End Navbar -->
+    <section>
+        <div class="container">
+            <div>
+                <label for="active">Have you ever subscribed with us?</label>
+                <select name="select" id="active">
+                    <option value="#">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <label for="form-1">Account Information</label>
+                <form action="" id="form-1">
+                    <input type="text" name="f-name" id="f-name" placeholder="First Name">
+                    <input type="text" name="s-name" id="s-name" placeholder="Second Name">
+                    <input type="email" name="mail" id="mail" placeholder="E-Mail">
+                    <input type="text" name="phone" id="phone" placeholder="Phone Number">
+                </form>
+            </div>
+            <div>
+                <label for="form-2">Address</label>
+                <form action="" id="form-2">
+                    <input type="text" name="company" id="company" placeholder="Company Name (optional)">
+                    <input type="text" name="street" id="street" placeholder="Street Name">
+                    <input type="text" name="neighborhood" id="neighborhood" placeholder="Neighborhood Name">
+                    <input type="text" name="city" id="city" placeholder="City">
+                    <input type="text" name="governorate" id="governorate" placeholder="Governorate">
+                    <input type="number" name="post" id="post" placeholder="Post Number">
+                    <input type="text" name="egypt" id="egypt" placeholder="Egypt">
+                </form>
+            </div>
+            <div>
+                <div class="spikes"></div>
+                <form action="" id="form-3">
+                    <label for="info">Additional Information</label>
+                    <div id="info">
+                        <input type="text" name="info" id="info" placeholder="EGP">
+                    </div>
+                    <label for="security">Account Security</label>
+                    <div id="security">
+                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input type="password" name="confirm" id="confirm" placeholder="Confirm Password">
+                        <input type="submit" value="Generate Password">
+                    </div>
+                </form>
+                <input type="submit" value="Register">
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
